@@ -12,6 +12,7 @@ import handlers
 logging.basicConfig(level=logging.INFO)
 
 async def main():
+    asyncio.create_task(start_health_server())
     # Инициализация базы данных
     init_db()
     
