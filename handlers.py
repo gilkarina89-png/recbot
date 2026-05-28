@@ -143,6 +143,7 @@ async def process_mood(callback: CallbackQuery, state: FSMContext):
 
 @router.callback_query(F.data.startswith("skip_"))
 async def skip_recommendation(callback: CallbackQuery, state: FSMContext):
+     print(f"🔵 КНОПКА НЕ НРАВИТСЯ НАЖАТА! data={callback.data}")
     logger.info(f"SKIP button pressed! data={callback.data}")
     
     user_data = await state.get_data()
