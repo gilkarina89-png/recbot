@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+logging.basicConfig(level=logging.DEBUG)
 from aiogram import Router, F, Bot
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command
