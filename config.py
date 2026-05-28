@@ -1,4 +1,4 @@
-BOT_TOKEN = "8926072756:AAHqZP3ByWKcSHW7XCtojblGrJ0hYgjCE8Q"
+BOT_TOKEN = "8926072756:AAGObsIwCies5kiVTuei81jPtyp2q3ohkKE"
 
 # Здесь можно хранить ссылки для внешних источников
 KINOPOISK_BASE_URL = "https://www.kinopoisk.ru/search/?q="
